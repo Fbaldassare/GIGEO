@@ -1,0 +1,22 @@
+h3{
+    font-size: 20px;
+    font-family: $font-secondary, sans-serif;
+    font-weight: 700;
+}
+
+h3.card-custom__text__header{
+    margin-top: 15px;
+}
+
+p{
+    color:$color__platinum;
+    font-family: $font-third, sans-serif;
+}
+p.card-custom__text__status{
+    color:$color__platinum;
+    font-family: $font-third, sans-serif;
+}
+.header__main__author__text p{
+    padding: 0px;
+    margin: 0px;
+}
