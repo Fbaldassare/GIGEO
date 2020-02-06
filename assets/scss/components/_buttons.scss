@@ -1,9 +1,57 @@
-#button-coral{
-    background-color: $color__fuzzy_wuzzy;
-    border:1px solid $color__fuzzy_wuzzy;
-}
 
-#button-whater-green{
-    background-color:$color__button_whater_green;
-    border-color: $color__button_whater_green;
-}
+    #button-coral{
+        background-color: $color__fuzzy_wuzzy;
+        border:1px solid $color__fuzzy_wuzzy;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        display: none;
+    }
+    
+    #button-whater-green{
+        background-color:$color__button_whater_green;
+        border-color: $color__button_whater_green;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        display: none;
+    }
+
+@media (min-width: 576px) { 
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    #button-coral{
+        background-color: $color__fuzzy_wuzzy;
+        border:1px solid $color__fuzzy_wuzzy;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        display: inline;
+    }
+    
+    #button-whater-green{
+        background-color:$color__button_whater_green;
+        border-color: $color__button_whater_green;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        display: inline;
+    }
+
+  }

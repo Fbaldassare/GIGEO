@@ -170,9 +170,9 @@ small {
 sub,
 sup {
   position: relative;
-  @include font-size(75%);
+  @include font-size(50%);
   line-height: 0;
-  vertical-align: baseline;
+  vertical-align: super;
 }
 
 sub { bottom: -.25em; }
